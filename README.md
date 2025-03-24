@@ -13,6 +13,8 @@ A production-ready NestJS application for managing tasks with features like auth
 - Rate limiting
 - Graceful shutdown handling
 
+## Project Structure
+
 ## Prerequisites
 
 - Node.js (v16 or later)

@@ -15,8 +15,49 @@ A production-ready NestJS application for managing tasks with features like auth
 
 ## Project Structure
 
-## Prerequisites
+task-sync/
+├── src/
+│   ├── auth/           # Authentication module
+│   │   ├── decorators/  
+│   │   ├── dto/  
+│   │   ├── guards/  
+│   │   ├── interfaces/  
+│   │   ├── strategies/  
+│   │   ├── auth.controller.ts  
+│   │   ├── auth.module.ts  
+│   │   └── auth.service.ts  
+│   ├── common/  
+│   │   ├── exceptions/  
+│   │   ├── filters/  
+│   │   ├── interceptors/  
+│   │   └── interfaces/  
+│   ├── config/  
+│   │   └── configuration.ts  
+│   ├── tasks/  
+│   │   ├── dto/  
+│   │   ├── entities/  
+│   │   ├── interfaces/  
+│   │   ├── tasks.controller.ts
+│   │   ├── tasks.module.ts  
+│   │   ├── tasks.service.ts  
+│   │   └── task.processor.ts  
+│   ├── users/  
+│   │   ├── dto/  
+│   │   ├── entities/  
+│   │   ├── users.controller.ts
+│   │   ├── users.module.ts  
+│   │   └── users.service.ts  
+│   ├── app.module.ts  
+│   └── main.ts  
+├── test/              # Testing
+├── .env              # Environment variables
+├── .env.example      # Example environment variables
+├── .gitignore
+├── package.json
+├── tsconfig.json
+└── README.md
 
+## Prerequisites
 - Node.js (v16 or later)
 - PostgreSQL
 - Redis
